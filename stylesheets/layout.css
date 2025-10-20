@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0; 
+    border-box: border-box
+}
+body{
+    width: 1440 px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alegreya" ;
+}
+
+/* <!-- ПЕРВЫЙ ЭКРАН --> */
+.firstscreen {
+  position: relative;
+  width: 1440px;
+  height: 1607px;
+  background: #C7AD80;
+}
+.headback {
+  font-family: "Alegreya";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 250px;
+  position: absolute;
+  top: 220px;
+  left: 286px;
+  color: #80212B;
+}
+
+
+.mouse {
+  position: absolute;
+  left: 1014px; /* смещение по X */
+  top: 47px; /* смещение по Y */
+}
+.mouse-2 {
+  position: absolute;
+  left: 40px; /* смещение по X */
+  top: 419px; /* смещение по Y */
+}
+.mouse_on_text {
+  position: absolute;
+  left: 375px; /* смещение по X */
+  top: 173px; /* смещение по Y */
+}
+.castle{
+position: absolute;
+  justify-content: center;
+    align-items: center;
+  top: 450px; /* смещение по Y */
+}
