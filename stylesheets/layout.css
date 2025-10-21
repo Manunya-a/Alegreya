@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
-    border-box: border-box
+    box-sizing: border-box;
 }
 body{
     width: 1440 px;
@@ -9,7 +9,7 @@ body{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    font-family: "Alegreya" ;
+    font-family: "Alegreya";
 }
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
@@ -21,7 +21,7 @@ body{
 }
 .headback {
   font-family: "Alegreya";
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-size: 250px;
   position: absolute;
@@ -51,4 +51,10 @@ position: absolute;
   justify-content: center;
     align-items: center;
   top: 450px; /* смещение по Y */
+}
+.history{
+position: absolute;
+  justify-content: center;
+    align-items: center;
+  top: 450px; /* смещение по Y */  
 }
