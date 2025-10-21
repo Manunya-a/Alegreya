@@ -4,13 +4,23 @@
     box-sizing: border-box;
 }
 body{
-    width: 1440 px;
+    width: 1440px;
     display: block;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     font-family: "Alegreya";
 }
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/macket.svg');
+  width: 1441px;
+  height: 7862px;
+  opacity: 0.2;
+} 
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
 .firstscreen {
@@ -20,7 +30,6 @@ body{
   background: #C7AD80;
 }
 .headback {
-  font-family: "Alegreya";
   font-weight: normal;
   font-style: normal;
   font-size: 250px;
