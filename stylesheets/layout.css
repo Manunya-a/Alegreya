@@ -5,6 +5,7 @@
 }
 body{
     width: 1440px;
+    background-color: #C7AD80;
     display: block;
     margin: 0 auto;
     justify-content: center;
@@ -16,33 +17,24 @@ body::after {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url('../images/macket.svg');
+  background-image: url('../images/Frame\ 6.png');
   width: 1441px;
-  height: 7862px;
+  height: 11071px;
   opacity: 0.2;
 } 
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
 .firstscreen {
+  display: flex;
   position: relative;
   width: 1440px;
   height: 1607px;
   background: #C7AD80;
 }
-.headback {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 250px;
-  position: absolute;
-  top: 220px;
-  left: 286px;
-  color: #80212B;
-}
-
 
 .mouse {
   position: absolute;
-  left: 1014px; /* смещение по X */
+  left: 1030px; /* смещение по X */
   top: 47px; /* смещение по Y */
 }
 .mouse-2 {
@@ -52,18 +44,40 @@ body::after {
 }
 .mouse_on_text {
   position: absolute;
-  left: 375px; /* смещение по X */
+  left: 355px; /* смещение по X */
   top: 173px; /* смещение по Y */
 }
 .castle{
 position: absolute;
   justify-content: center;
     align-items: center;
-  top: 450px; /* смещение по Y */
+  top: 440px; /* смещение по Y */
 }
-.history{
-position: absolute;
-  justify-content: center;
-    align-items: center;
-  top: 450px; /* смещение по Y */  
+.head  h1{
+  font-weight: normal;
+  font-style: normal;
+  font-size: 250px;
+  position: absolute;
+  top: 220px;
+  left: 286px;
+  color: #80212B;
+}
+.head  h2{
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100px;
+  position: absolute;
+    left: 490px;
+  top: 550px;
+  color: black;
+}
+.Text {
+font-weight: normal;
+  font-style: normal;
+  font-size: 34px;
+  position: absolute;
+    left: 490px;
+  top: 550px;
+  color: black;
+
 }
