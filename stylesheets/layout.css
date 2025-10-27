@@ -21,7 +21,8 @@ body::after {
   width: 1441px;
   height: 11071px;
   opacity: 0.2;
-} 
+}
+
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
 .firstscreen {
@@ -67,17 +68,135 @@ position: absolute;
   font-style: normal;
   font-size: 100px;
   position: absolute;
-    left: 490px;
+  left: 490px;
   top: 550px;
   color: black;
 }
-.Text {
-font-weight: normal;
+.head p{
+  font-weight: normal;
   font-style: normal;
+  line-height: 1.2;
+  padding: right 70px;
   font-size: 34px;
   position: absolute;
-    left: 490px;
-  top: 550px;
-  color: black;
+  top: 712px;
+  left: 315px;
+  color: #000000;
+}
+.Vampire{
+ font-weight: normal;
+  font-style: normal;
+  font-size: 240px;
+  position: absolute;
+  top: 1330px;
+  left: 40px;
+  color:#C7AD80;  
+}
 
+/* <!-- ВТОРОЙ ЭКРАН --> */
+.secondscreen {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 1423px;
+  background: #C7AD80;
+}
+.teeth {
+position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 1600px;  
+}
+.Avtor {
+position: absolute;
+  left: 875px; /* смещение по X */
+  top: 2313px; /* смещение по Y */ 
+}
+.History h3{
+font-weight: normal;
+  font-style: normal;
+  font-size: 96px;
+  position: absolute;
+  top: 2148px;
+  left: 363px;
+  color: #80212B;  
+}
+.History p{
+font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 70px;
+  font-size: 34px;
+  position: absolute;
+  top: 2331px;
+  left: 190px;
+  color: #000000;
+}
+.a{
+font-weight: normal;
+  font-style: normal;
+  font-size: 180px;
+  position: absolute;
+  transform: rotate(-23deg);
+  top: 2792px;
+  left: 1110px;
+  color:#C7AD80;  
+}
+.q{
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  top: 2850px;
+  left: 706px;
+  color:#C7AD80;  
+}
+.g{
+font-weight: normal;
+  font-style: normal;
+  font-size: 180px;
+  position: absolute;
+  transform: rotate(82deg);
+  top: 2880px;
+  left: 490px;
+  color:#C7AD80;  
+}
+.w{
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  top: 2860px;
+  left: 230px;
+  color:#C7AD80;  
+}
+.u{
+font-weight: normal;
+  font-style: normal;
+  font-size: 180px;
+  position: absolute;
+  transform: rotate(-42deg);
+  top: 2850px;
+  left: 50px;
+  color:#C7AD80;  
+}
+.F{
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(13deg);
+  top: 2848px;
+  left: 940px;
+  color:#C7AD80;  
+}
+.f{
+font-weight: normal;
+  font-style: normal;
+  font-size: 180px;
+  position: absolute;
+  transform: rotate(-70deg);
+  top: 2850px;
+  left: 1290px;
+  color:#C7AD80;  
 }
