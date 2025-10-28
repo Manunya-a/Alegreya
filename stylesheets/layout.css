@@ -18,11 +18,10 @@ body::after {
   top: 0;
   left: 0;
   background-image: url('../images/Frame\ 6.png');
-  width: 1441px;
+  width: 1440px;
   height: 11071px;
   opacity: 0.2;
 }
-
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
 .firstscreen {
@@ -199,4 +198,52 @@ font-weight: normal;
   top: 2850px;
   left: 1290px;
   color:#C7AD80;  
+}
+/* <!-- ТРЕТИЙ ЭКРАН --> */
+.thirdscreen {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 1262px;
+  background: #C7AD80;
+}
+.Fon {
+position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 3022px;
+}
+.paytina {
+position: absolute;
+  left: 968px; /* смещение по X */
+  top: 3089px; /* смещение по Y */  
+}
+.Osobennosti h2{
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  left: 40px;
+  top: 3190px;
+  color:#80212B;  
+}
+.Osobennosti p{
+font-weight: normal;
+  font-style: normal;
+  font-size: 800px;
+  position: absolute;
+  left: 315px;
+  top: 3300px;
+  color: black;   
+}
+.Kryg1{
+position: absolute;
+  left: 160px; /* смещение по X */
+  top: 3792px; /* смещение по Y */   
+}
+.Kryg2{
+  position: absolute;
+  left: 490px; /* смещение по X */
+  top: 3770px; /* смещение по Y */ 
+  transform: rotate(120deg);
 }
