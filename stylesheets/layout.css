@@ -670,17 +670,71 @@ font-style: normal;
   left: 870px;
   color:#C7AD80;   
 }
-.Podzag.{
+.Podzag{
 font-style: normal;
   font-weight:400;
   font-size: 64px;
   position: absolute;
-  transform: rotate(-20deg);
-  top: 7960px;
-  left: 870px;
+  transform: rotate(-25deg);
+  top: 8086px;
+  left: 900px;
   color:#C7AD80;   
 }
+.Ypak{
+font-style: normal;
+  font-weight:400;
+  font-size: 64px;
+  position: absolute;
+  transform: rotate(-28deg);
+  top: 8186px;
+  left: 1000px;
+  color:#C7AD80;   
+}
+/* <!-- СЕДЬМОЙ ЭКРАН --> */
 
+.Sixscreen {
+ display: flex;
+  position: relative;
+  width: 1440px;
+  height: 5000px;
+}  
+.Vino{
+ position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 8550px;
+  left: 5px;  
+}
+.Glifs {
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  left: 980px;
+  top: 8820px;
+  color:#000000;  
+}
+/* <!-- СЕДЬМОЙ ЭКРАН --> */
 
-
-
+.sevenscreen {
+ display: flex;
+  position: relative;
+  width: 1440px;
+  height: 5000px;
+}  
+.Podval{
+ position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 10105px;
+}
+.Name {
+font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  font-size: 64px;
+  position: absolute;
+  left: 40px;
+  top: 10800px;
+  color:#C7AD80;  
+}
