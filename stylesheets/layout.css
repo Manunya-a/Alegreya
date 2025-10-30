@@ -12,7 +12,7 @@ body{
     align-items: center;
     font-family: "Alegreya";
 }
-body::after {
+/* body::after {
   content: '';
   position: absolute;
   top: 0;
@@ -21,7 +21,7 @@ body::after {
   width: 1440px;
   height: 11071px;
   opacity: 0.2;
-}
+}*/
 
 /* <!-- ПЕРВЫЙ ЭКРАН --> */
 .firstscreen {
@@ -31,7 +31,6 @@ body::after {
   height: 1607px;
   background: #C7AD80;
 }
-
 .mouse {
   position: absolute;
   left: 1030px; /* смещение по X */
