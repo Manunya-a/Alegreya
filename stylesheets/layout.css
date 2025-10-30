@@ -243,9 +243,24 @@ position: absolute;
 }
 .Kryg2{
   position: absolute;
-  left: 480px; /* смещение по X */
+  left: 510px; /* смещение по X */
   top: 3800px; /* смещение по Y */ 
-  transform: rotate(120deg);
+ 
+}
+.Kryg3{
+  position: absolute;
+  left: 910px; /* смещение по X */
+  top: 3570px; /* смещение по Y */ 
+}
+.Kryg4{
+  position: absolute;
+  left: 945px; /* смещение по X */
+  top: 3715px; /* смещение по Y */ 
+}
+.Kryg5{
+  position: absolute;
+  left: 895px; /* смещение по X */
+  top: 3845px; /* смещение по Y */ 
 }
 .Ygol {
   font-weight: normal;
