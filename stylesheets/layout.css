@@ -200,6 +200,7 @@ font-weight: normal;
   color:#C7AD80;  
 }
 /* <!-- ТРЕТИЙ ЭКРАН --> */
+
 .thirdscreen {
   display: flex;
   position: relative;
@@ -239,11 +240,447 @@ font-weight: normal;
 .Kryg1{
 position: absolute;
   left: 160px; /* смещение по X */
-  top: 3792px; /* смещение по Y */   
+  top: 3790px; /* смещение по Y */   
 }
 .Kryg2{
   position: absolute;
-  left: 490px; /* смещение по X */
-  top: 3770px; /* смещение по Y */ 
+  left: 480px; /* смещение по X */
+  top: 3800px; /* смещение по Y */ 
   transform: rotate(120deg);
 }
+.Ygol {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 70px;
+  font-size: 36px;
+  position: absolute;
+  top: 3755px;
+  left: 36px;
+  color:black;
+}
+.Anti {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 70px;
+  font-size: 36px;
+  position: absolute;
+  top: 4040px;
+  left: 490px;
+  color:black;
+}
+.Entan {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 70px;
+  font-size: 36px;
+  position: absolute;
+  top: 3615px;
+  left: 1090px;
+  color:black;
+}
+.Progib {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 80px;
+  font-size: 36px;
+  position: absolute;
+  top: 3770px;
+  left: 1105px;
+  color:black;
+}
+.Elements {
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding: right 80px;
+  font-size: 36px;
+  position: absolute;
+  top: 4010px;
+  left: 1036px;
+  color:black;
+}
+/* <!-- ЧЕТВЕРТЫЙ ЭКРАН --> */
+
+.fourthscreen {
+  display: flex;
+  position: relative;
+  width: 1440px;
+  height: 1262px;
+  background: #C7AD80;
+}
+.black {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4270px;
+}
+.mirror {
+position: absolute;
+  left: 45px; /* смещение по X */
+  top: 4420px; /* смещение по Y */    
+}
+.paper {
+position: absolute;
+  left: 775px; /* смещение по X */
+  top: 4420px; /* смещение по Y */    
+}
+.language h3{
+font-weight: normal;
+  font-style: normal;
+  font-size: 300px;
+  position: absolute;
+  top: 4650px;
+  left: 195px;
+  color:#C7AD80;    
+}
+.language p{
+font-weight: normal;
+  font-style: normal;
+  font-size: 80px;
+  position: absolute;
+  top: 4940px;
+  left: 240px;
+  color:#C7AD80;     
+}
+.Nachertania h3{
+font-weight: normal;
+  font-style: normal;
+  font-size: 350px;
+  position: absolute;
+  top: 4500px;
+  left: 930px;
+  color:#80212B;      
+}
+.Nachertania p{
+font-weight: normal;
+  font-style: normal;
+  font-size: 80px;
+  position: absolute;
+  top: 4835px;
+  left: 835px;
+  color:#80212B;      
+}
+
+/* <!-- ПЯТЫЙ ЭКРАН --> */
+
+.fivescreen {
+ display: flex;
+  position: relative;
+  width: 1440px;
+  height: 5000px;
+}
+
+.fivescreen p{
+font-weight: normal;
+  font-style: normal;
+  font-size: 150px;
+  position: absolute;
+  top: 3940px;
+  left: 27px;
+  color:#80212B;      
+}
+.Shift{
+position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 5000px;  
+}
+
+.G1{
+  position: absolute;
+  left: 2px; /* смещение по X */
+  top: 4240px; /* смещение по Y */   
+}
+.G2{
+  position: absolute;
+  left: 560px; /* смещение по X */
+  top: 4260px; /* смещение по Y */   
+}
+.G3{
+  position: absolute;
+  left: 940px; /* смещение по X */
+  top: 3965px; /* смещение по Y */   
+}
+.G4{
+  position: absolute;
+  left: 50px; /* смещение по X */
+  top: 4805px; /* смещение по Y */   
+}
+.G5{
+  position: absolute;
+  left: 335px; /* смещение по X */
+  top: 4590px; /* смещение по Y */   
+}
+.G6{
+  position: absolute;
+  left: 850px; /* смещение по X */
+  top: 4465px; /* смещение по Y */   
+}
+.Italic h3 {
+font-style: italic;
+  font-weight: 400;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(38deg);
+  top: 5895px;
+  left: 220px;
+  color:#C7AD80;      
+}
+.Italic p {
+font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(38deg);
+  top: 6025px;
+  left: 150px;
+  color:#C7AD80;      
+}
+.Regular h3 {
+font-style: normal;
+  font-weight:400;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(60deg);
+  top: 6070px;
+  left: 320px;
+  color:#80212B;      
+}
+.Regular p {
+font-style: normal;
+  font-weight:400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(-28deg);
+  top: 6185px;
+  left: 145px;
+  color:#80212B;      
+}
+.Medium h3 {
+font-style: normal;
+  font-weight: 500;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(-48deg);
+  top: 5915px;
+  left: 640px;
+  color:#000000;      
+}
+.Medium p {
+font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(38deg);
+  top: 6060px;
+  left: 715px;
+  color:#000000;      
+}
+.ExtraBold h3 {
+font-style: normal;
+  font-weight: 800;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(-60deg);
+  top: 5770px;
+  left: 1010px;
+  color:#80212B;      
+}
+.ExtraBold p {
+font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(30deg);
+  top: 5900px;
+  left: 1100px;
+  color:#80212B;      
+}
+.Bold h3 {
+font-style: normal;
+  font-weight: 700;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(-38deg);
+  top: 5610px;
+  left: 1145px;
+  color:#C7AD80;      
+}
+.Bold p {
+font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(-40deg);
+  top: 5750px;
+  left: 1210px;
+  color:#C7AD80;      
+}
+.Black h3 {
+ font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(-42deg);
+  top: 6430px;
+  left: 110px;
+  color:#C7AD80;      
+}
+.Black p {
+ font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 6550px;
+  left: 160px;
+  color:#C7AD80;      
+}
+.MediumItalic h3 {
+ font-style: italic;
+  font-weight: 500;
+  font-size: 150px;
+  position: absolute;
+  transform: rotate(46deg);
+  top: 6290px;
+  left: 640px;
+  color:#000000;      
+}
+.MediumItalic p {
+ font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  transform: rotate(-36deg);
+  top: 6455px;
+  left: 425px;
+  color:#000000;      
+}
+.ExtraBoldItalic h3 {
+ font-style: italic;
+  font-weight: 800;
+  font-size: 150px;
+  position: absolute;
+  top: 6505px;
+  left: 590px;
+  color:#80212B;      
+}
+.ExtraBoldItalic p {
+ font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  top: 6535px;
+  left: 680px;
+  color:#80212B;      
+}
+.BoldItalic h3 {
+ font-style: italic;
+  font-weight: 700;
+  font-size: 150px;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 6280px;
+  left: 1020px;
+  color:#C7AD80;      
+}
+.BoldItalic p {
+ font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  transform: rotate(-31deg);
+  position: absolute;
+  top: 6430px;
+  left: 1085px;
+  color:#C7AD80;      
+}
+.BlackItalic h3 {
+ font-style: italic;
+  font-weight: 900;
+  font-size: 150px;
+  position: absolute;
+  top: 6210px;
+  left: 1210px;
+  color:#000000;      
+}
+.BlackItalic p {
+ font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  top: 6350px;
+  left: 1212px;
+  color:#000000;      
+}
+.Nis{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 6780px;  
+}
+.Verx{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 5395px;  
+}
+
+/* <!-- ШЕСТОЙ ЭКРАН --> */
+
+.fivescreen {
+ display: flex;
+  position: relative;
+  width: 1440px;
+  height: 5000px;
+}  
+.Books{
+ position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 6950px;  
+}
+.Spider{
+ position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 6881px;
+  left: 64px;    
+}
+.Pechat{
+font-style: normal;
+  font-weight:400;
+  font-size: 64px;
+  position: absolute;
+  transform: rotate(-15deg);
+  top: 7820px;
+  left: 720px;
+  color:#C7AD80;   
+}
+.Zagolovok{
+font-style: normal;
+  font-weight:400;
+  font-size: 64px;
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 7960px;
+  left: 870px;
+  color:#C7AD80;   
+}
+.Podzag.{
+font-style: normal;
+  font-weight:400;
+  font-size: 64px;
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 7960px;
+  left: 870px;
+  color:#C7AD80;   
+}
+
+
+
+
